@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="myapplication90.khloud.example.com.myapplication_demo2.MainActivity"
+
+    >
+
+
+
+
+    <item
+        android:id="@+id/rated"
+        android:title="MostRated"
+
+       />
+
+
+    <item
+        android:id="@+id/fav"
+        android:title="favorite"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/pop"
+        android:orderInCategory="100"
+        android:title="populate"
+        app:showAsAction="never" />
+
+
+</menu>
